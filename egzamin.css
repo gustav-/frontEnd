@@ -1,0 +1,9 @@
+li {
+	font-family: Helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: darkgreen;
+	list-style-type: none;
+	text-indent: 8em;
+	margin: 1em 0;
+}
