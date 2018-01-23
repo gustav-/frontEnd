@@ -5,5 +5,40 @@ li {
 	color: darkgreen;
 	list-style-type: none;
 	text-indent: 8em;
-	margin: 1em 0;
+	padding: 1em 0;
+}
+
+li:nth-child(5n+1){
+	background-color: #1111a1;
+}
+
+li:nth-child(5n+2){
+	background-color: #3222b2;
+}
+
+li:nth-child(5n+3){
+	background-color: #5333c3;
+}
+
+li:nth-child(5n+4){
+	background-color: #7444d4;
+}
+
+li:nth-child(5n+5){
+	background-color:#9555e5;
+}
+
+ul {
+	padding:0;
+	margin:0;
+}
+
+body {
+	margin:0;
+}
+
+li:hover {
+	background-color: gold;
+	height:4em;
+	cursor: pointer;
 }
